@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+   .header
+   {
+        background-color: rgb(245, 207, 71);
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        color:aliceblue
+        
+   }
+   
+   
+   .cart1
+   {
+        background-color: rgb(255, 229, 174);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+        
+   }
+
+   .cart2
+   {
+         background-color: rgb(255, 229, 174);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+   }
+
+   .cart3
+   {
+     background-color: rgb(255, 229, 174);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+   }
+
+   img
+   {
+        height: 200px;
+        width:  200px;
+        border-radius: 5px;
+   }
+
+   .footer
+   {
+        background-color: black;
+        text-align: center;
+        color:aliceblue
+   }
+
+</style>
+
+<body>
+    <div class="header">
+       <h2>Bravino Kitchen</h2>
+       <p>Order Delicious Food Anytime, Anywhere</p>
+    </div>
+
+    <div class="cart1">
+        <h3>Veg Burger</h3>
+        <img src="./Images/Veggie Burgers.jpg" alt="Veggie-Burger">
+        <p>Enjoy our <strong>Best Selling Burger</strong> made with fresh vegetables and special sauces.</p>
+        <p><mark>Today's Special Offer</mark></p>
+        <p>Old Price : <del>₹199</del></p>
+        <p>New Price <ins>₹149</ins></p>
+    </div>
+
+    
+    <div class="cart2">
+        <h3>Italian Pizza</h3>
+        <img src="./Images/italian_pizza.jpg" alt="italian_pizza">
+        <p><em>Cheesy and Crispy Pizza </em>loaded with premium toppings.</p>
+        <p><ins>Free Home Delivery Available</ins></p>
+        <p>Old Price :<del>₹499</del></p>
+        <p>New Price :<ins>₹399</ins></p>
+    </div>
+
+
+    <div class="cart3">
+            <h3>Chocolate Cake</h3>
+            <img src="./Images/Matildas-Chocolate-Cake.jpg" alt="chocolate">
+            <p>Soft and delicious chocolate cake prepared with premium ingredients.</p>
+            <p><small>* Limited Time Offer Available</small></p>
+    </div>
+
+    <div class="footer">
+            <p><strong>Thank You for Choosing Bravino Kitchen ❤️</strong></p>
+            <p>Serving Happiness One Bite at a Time🍔🍕🍰</p>
+            <p><small>© 2026 Bravino Kitchen. All Rights Reserved.</small></p>
+    </div>
+</body>
+</html>
