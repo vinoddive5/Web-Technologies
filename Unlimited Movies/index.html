@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+       
+        .star::first-letter
+        {
+            font-size: 30px;
+        }
+
+        .letter::first-letter
+        {
+            font-size: 30px;
+            color: rgb(193, 5, 5);
+        }
+
+        header
+        {
+            background-color: rgb(251, 20, 20);
+            text-align: center;
+            padding: 20px;
+
+        }
+       
+
+        nav
+        {
+            background-color: rgb(179, 9, 9);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font: bold;
+        }
+
+        span
+        {
+            margin: 40px;
+            font-weight: bold;
+        }
+
+        main
+        {
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            color:white;
+        }
+        
+        section
+        {
+            background-color: rgb(60, 53, 53);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        section p
+        {
+            margin: 10px;
+        }
+
+        section img
+        {
+            width: 400px;
+            height: 200px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+
+        aside
+        {
+            background-color: rgb(81, 72, 72);
+            color: white;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        aside p
+        {
+            padding: 10px;
+            
+        }
+
+        blockquote{
+            background-color: white;
+            color :black;
+            padding: 10px;
+
+        }
+
+        footer
+        {
+            text-align: center;
+        }
+
+        footer p
+        {
+            padding-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lumora Studios</h1>
+        <p>Watch Unlimited Movies Anytime</p>
+    </header>
+
+    <nav>
+        <span>Home</span>
+        <span>Movies</span>
+        <span>Series</span>
+        <span>Contact</span>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Avengers: Endgame</h1>
+            <img src="./images/EndGame.jpg" alt="EndGame">
+            <p class="letter">Earth's Mightiest Heroes unite for the final battle to save the universe.</p>
+            <p class="star">⭐⭐⭐⭐⭐</p>
+        </section>
+
+        <section>
+           <h1>Interstellar</h1>
+            <img src="./images/Interstellar .jpg" alt="EndGame">
+            <p class="letter">A breathtaking journey through space and time to save humanity.</p>
+            <p class="star">⭐⭐⭐⭐⭐</p>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Trending Movies</h2>
+        <p>✔ Avengers</p>
+        <p>✔ Interstellar</p>
+        <p>✔ Batman</p>
+        <p>✔ Spider-Man</p>
+        <blockquote>"Movies touch our hearts and inspire our imagination"</blockquote>
+    </aside>
+
+    <footer>
+        <h1>Lumora Studios</h1>
+        <p>🎬 Entertainment • Adventure • Action 🍿</p>
+        <p>&copy; 2026 Lumora-Studios. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
